@@ -230,7 +230,7 @@
 }
 
 .excess-luggage-pic{
-    width:80%;
+    width:85%;
     border:4px outset rgb(248, 242, 242);
     margin:auto;
     margin-bottom:8px;
@@ -239,7 +239,7 @@
 .signature-aboutme{
     width: 30%;
     margin: 0 auto;
-    padding-bottom:15%;
+    margin-bottom:15%;
    
 }
 
@@ -497,6 +497,12 @@ a.contact-option:hover{
 
  
 }
+
+.current {
+  color:none;
+  border-bottom:none;
+  background: rgb(202, 202, 202,.5);
+ }
 
 }
 
