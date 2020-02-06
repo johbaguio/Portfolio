@@ -30,9 +30,9 @@
 
 }
 .current {
-  color:none;
+  color: rgb(57, 57, 59);
   border-bottom:none;
-  background: rgb(202, 202, 202,.5);
+  background: rgba(155, 155, 155, 0.5);
  }
 
 
@@ -125,6 +125,7 @@
     background: linear-gradient(to left, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 100%;
     padding-bottom:5%;
+    margin-bottom:120px;
     font-family: 'Averia Serif Libre', cursive;
     font-weight: normal;
   
@@ -299,6 +300,7 @@
     background: -webkit-linear-gradient(to left, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 100vh;
+    padding-bottom: 5%;
 }
 
 .contact-container{
@@ -415,6 +417,11 @@ a.contact-option:hover{
     vertical-align: middle;
 }
 
+a:hover{
+  text-decoration: none;
+  color: rgb(57, 57, 59) !important;
+}
+
 
 
 /* Tab */
@@ -501,8 +508,8 @@ a.contact-option:hover{
 }
 
 
-.current {
-  color:black;
+.navbar-light .navbar-text.current {
+  color: rgb(57, 57, 59) !important;
   border-bottom: 1px inset rgba(100, 97, 97, 0.5);
   background:transparent;
  }
