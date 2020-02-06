@@ -239,7 +239,7 @@
 .signature-aboutme{
     width: 30%;
     margin: 0 auto;
-    margin-bottom:15%;
+    margin-bottom:150px;
    
 }
 
@@ -494,7 +494,8 @@ a.contact-option:hover{
 
 .signature-aboutme{
   width: 15%;
-
+   margin-bottom:110px;
+  
  
 }
 
