@@ -29,12 +29,12 @@
     margin:0 10px;
 
 }
-
-
 .current {
- color:black;
- border-bottom: 1px inset rgba(100, 97, 97, 0.5);
-}
+  color:none;
+  border-bottom:none;
+  background: rgb(202, 202, 202,.5);
+ }
+
 
 /* Landing Page */ 
 
@@ -498,10 +498,11 @@ a.contact-option:hover{
  
 }
 
+
 .current {
-  color:none;
-  border-bottom:none;
-  background: rgb(202, 202, 202,.5);
+  color:black;
+  border-bottom: 1px inset rgba(100, 97, 97, 0.5);
+  background:transparent;
  }
 
 }
