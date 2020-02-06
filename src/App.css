@@ -34,15 +34,14 @@
     background: linear-gradient(to left, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
     padding-bottom: 125px;
-    
+    height: 100vh;
 }
 
 .my-pic{
-    width: 280px;
+    width: 180px;
     padding-bottom: 2em;
     border-radius:30%;
     margin:2.5% auto 0 auto;
- 
 }
 
 .banner-text{
@@ -57,7 +56,7 @@
 
 .banner-text h1{
     font-family: 'Averia Serif Libre', cursive;
-    font-size: 45px;
+    font-size: 25px;
     font-weight: bold;
     color:rgb(12, 11, 11);
     margin-top:5px;
@@ -67,7 +66,7 @@
 .banner-text p {
     font-family: 'Bree Serif', serif;
     color: rgb(15, 15, 15);
-    font-size: 16px;
+    font-size: 14px;
     padding:.2em 1em;
   }
 
@@ -405,6 +404,44 @@ a.contact-option:hover{
 
 
 /* Landing Page */ 
+
+.my-pic{
+  width: 280px;
+}
+
+.banner-text h1{
+  font-size: 45px;
+}
+
+.banner-text p {
+  font-size: 16px;
+}
+
+.banner-text hr {
+  border-top:5px dotted rgb(247, 72, 18);
+  width:50%;
+  margin:10px auto;
+}
+
+.hr-nav{
+  border-top:2px inset -webkit-linear-gradient(to left, #ffd194, #70e1f5) !important;
+  margin:auto;
+}
+
+.social-links{
+  display: flex;
+  justify-content: space-evenly;
+  width:40%;
+  margin:auto;
+}
+
+.social-links i{
+  color: rgb(19, 18, 18);
+  font-size: 2.5em;
+  padding:8px;
+
+}
+/*end*/
 
 .landing-page{
     padding-bottom: 30px;
