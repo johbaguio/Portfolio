@@ -68,7 +68,7 @@ class About extends Component {
                                     <Card.Text>
                                         An app that will definitely give you the encouragement you need in whatever it is that you may be going through in your job, personal relationships or basically in life. I hope this lightens up your day. :D
                                     </Card.Text>
-                                    <a href='https://daily-dose-of-positivity.netlify.com/ ' target='_blank'><Button variant="primary">Go to app</Button></a>
+                                    <a href='https://daily-dose-of-positivity.netlify.com/ ' target='_blank' rel="noopener noreferrer"><Button variant="primary">Go to app</Button></a>
                                 </Card.Body>
                             </Card>
 
@@ -79,7 +79,7 @@ class About extends Component {
                                     <Card.Text>
                                         A short quiz  app about JavaScript with some timers and background music to keep you entertained and pressured at the same time. This is one of the homeworks we had in JS with HYF. C'mon give it a try. :D
                                     </Card.Text>
-                                    <a href='https://johbaguio.github.io/hyf-quiz/? ' target='_blank'><Button variant="primary">Go to app</Button></a>
+                                    <a href='https://johbaguio.github.io/hyf-quiz/? ' target='_blank' rel="noopener noreferrer"><Button variant="primary">Go to app</Button></a>
                                 </Card.Body>
                             </Card>
 
@@ -90,7 +90,7 @@ class About extends Component {
                                     <Card.Text>
                                         2018, HackYourFuture gave us a christmas coding challenge. That is to incorporate christmas and our school. So, I did a memory game with our mentors pictures in the cards. Try it out! :D
                                     </Card.Text>
-                                    <a href='https://johbaguio.github.io/hyf-christmas/ ' target='_blank'><Button variant="primary">Go to app</Button></a>
+                                    <a href='https://johbaguio.github.io/hyf-christmas/ ' target='_blank' rel="noopener noreferrer"><Button variant="primary">Go to app</Button></a>
                                 </Card.Body>
                             </Card>
                         </div>
@@ -100,7 +100,7 @@ class About extends Component {
                         Aside from navigating the cyber world, I also love exploring different places in the world. I love immersing myself in the diversities found in the country’s structures, history, and culture. In every place I’ve set my foot into, I made sure to take a piece of that place with me. These fragments of memories are collectively known as <b><i> my excess luggage </i></b>. Hop on and take a peek inside! ✈   </p>
 
 
-                    <a href='https://johbaguio.github.io/hyf-christmas/' target='_blank' className='excess-luggage-a'><img src="https://s19.postimg.cc/ik3qv5ysz/HEADER.jpg" className='excess-luggage-pic' alt='Excess Luggage Banner' /></a>
+                    <a href='https://johbaguio.github.io/hyf-christmas/' target='_blank' rel="noopener noreferrer" className='excess-luggage-a'><img src="https://s19.postimg.cc/ik3qv5ysz/HEADER.jpg" className='excess-luggage-pic' alt='Excess Luggage Banner' /></a>
                     <img src="https://s19.postimg.cc/haljqnx5v/sign.png" alt="Xoxo,Johanna" className="signature-aboutme" />
                 </div>
 
