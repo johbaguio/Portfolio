@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Form, ButtonToolbar, Button } from 'react-bootstrap';
+import Header from './Header';
 // import axios from 'axios';
 // import Footer from './Footer';
 
@@ -43,6 +44,7 @@ class Contact extends Component {
     render() {
         return (
             <div className='contact-wrapper'>
+                <Header />
                 <h1 className='contact-title'> Let's connect, shall we? </h1>
                 <div className='contact-container'>
                     <div className='contact-form'>

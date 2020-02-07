@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Card, Button } from 'react-bootstrap';
 import Footer from './Footer';
+import Header from './Header';
 import MemoryGame from '../Static/Images/memory-game.png';
 import HyfQuiz from '../Static/Images/hyf-quiz.png';
 import QuotesApp from '../Static/Images/quotes-app.png';
@@ -12,6 +13,7 @@ class Projects extends Component {
     render() {
         return (
             <div className='projects-container'>
+                <Header />
                 <h1 className='projects-text'>Projects</h1>
                 <hr className='hr-projects0' />
                 <hr className='hr-projects' />

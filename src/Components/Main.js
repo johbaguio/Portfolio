@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Header from './Header';
 import LandingPage from './LandingPage';
 import About from './About';
 import Contact from './Contact';
@@ -13,7 +12,6 @@ class Main extends Component {
     render() {
         return (
             <Router>
-                <Header />
                 <Switch>
                     <Route exact path='/' component={LandingPage} />
                     <Route exact path='/About' component={About} />

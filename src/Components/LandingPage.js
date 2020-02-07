@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import jo from '../Static/Images/jo.png';
+import Header from './Header';
 
 
 
@@ -7,6 +8,7 @@ class LandingPage extends Component {
     render() {
         return (
             <div className='landing-page'>
+                <Header />
                 <img src={jo} alt='Johanna Baguio' className='my-pic animated fadeIn slow' />
 
                 <div className='banner-text'>

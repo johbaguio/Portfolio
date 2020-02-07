@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Card, Button } from 'react-bootstrap';
+import Header from './Header';
 import Footer from './Footer';
 import MemoryGame from '../Static/Images/memory-game.png';
 import HyfQuiz from '../Static/Images/hyf-quiz.png';
@@ -16,7 +17,7 @@ class About extends Component {
         return (
             <div className='aboutMe-container'>
                 {/* <h1 className='name'> Johanna May Baguio </h1> */}
-
+                <Header />
                 <Carousel className='carousel-aboutme'>
                     <Carousel.Item>
                         <img
