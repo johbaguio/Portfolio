@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <React.Fragment>
             <Navbar className='navbar' collapseOnSelect expand="lg" variant="light">
-                <NavLink to="/"><img src={initialsPic} alt='initials of Johanna Baguio' className='initials-pic' /></NavLink>
+                <NavLink to="/Home"><img src={initialsPic} alt='initials of Johanna Baguio' className='initials-pic' /></NavLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" >
                     <Nav className="mr-auto navtext">
@@ -19,7 +19,7 @@ const Header = () => {
                     </Nav>
                     <Nav>
                         <NavLink to="/Projects" className='navbar-text' activeClassName='current'>Projects</NavLink>
-                        <NavLink to="/Contact" className='navbar-text' activeClassName='current'>Contact</NavLink>
+                        <NavLink to="/Contact" className='navbar-text' activeClassName='current' >Contact</NavLink>
 
                     </Nav>
                 </Navbar.Collapse>

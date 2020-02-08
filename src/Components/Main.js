@@ -13,12 +13,11 @@ class Main extends Component {
         return (
             <Router>
                 <Switch>
-                    <Route exact path='/' component={LandingPage} />
+                    <Route exact path='/Home' component={LandingPage} />
                     <Route exact path='/About' component={About} />
                     <Route exact path='/Contact' component={Contact} />
                     <Route exact path='/Projects' component={Projects} />
                     <Route exact path='/Resume' component={Resume} />
-                    <Route exact path='/Home' component={LandingPage} />
                 </Switch>
             </Router>
 
