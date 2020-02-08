@@ -7,7 +7,10 @@ import HyfQuiz from '../Static/Images/hyf-quiz.png';
 import QuotesApp from '../Static/Images/quotes-app.png';
 import Jo from '../Static/Images/jo-about.jpg';
 import Jo1 from '../Static/Images/jo-about4.jpg';
-import Jo2 from '../Static/Images/jo-about3.jpg';
+import Jo2 from '../Static/Images/jo-about7.jpg';
+import Jo3 from '../Static/Images/jo-about5.jpg';
+import Jo4 from '../Static/Images/jo-about6.jpg';
+import Jo5 from '../Static/Images/jo-about3.jpg';
 import Carousel from 'react-bootstrap/Carousel';
 
 
@@ -33,6 +36,17 @@ class About extends Component {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
+                            src={Jo3}
+                            alt="First slide"
+                        />
+                        <Carousel.Caption>
+                            <h3>Iceland</h3>
+                            <p>Reykjavik, February,2019</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
                             src={Jo1}
                             alt="Third slide"
                         />
@@ -45,13 +59,36 @@ class About extends Component {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
+                            src={Jo4}
+                            alt="First slide"
+                        />
+                        <Carousel.Caption>
+                            <h3>Philippines</h3>
+                            <p>Siargao, March,2018</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
                             src={Jo2}
                             alt="Third slide"
                         />
 
                         <Carousel.Caption>
-                            <h3>Venice, Italy</h3>
-                            <p>Grand Canal, July,2019</p>
+                            <h3>Philippines</h3>
+                            <p>Cebu, May,2018</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={Jo5}
+                            alt="Third slide"
+                        />
+
+                        <Carousel.Caption>
+                            <h3> Italy</h3>
+                            <p>Venice, July,2019</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
