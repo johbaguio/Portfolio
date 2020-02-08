@@ -506,6 +506,16 @@ a:hover{
     margin:3% 2px 20px 2px;
 }
 
+.card-text{
+    font-size:15px;
+  }
+
+  .project-title{
+    font-size:20px;
+}
+
+
+
 
 /* Contact Page */
 
