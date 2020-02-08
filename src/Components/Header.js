@@ -9,11 +9,11 @@ const Header = () => {
     return (
         <React.Fragment>
             <Navbar className='navbar' collapseOnSelect expand="lg" variant="light">
-                <NavLink to="/Home"><img src={initialsPic} alt='initials of Johanna Baguio' className='initials-pic' /></NavLink>
+                <NavLink to="/"><img src={initialsPic} alt='initials of Johanna Baguio' className='initials-pic' /></NavLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" >
                     <Nav className="mr-auto navtext">
-                        <NavLink to="/Home" className='navbar-text' activeClassName='current'>Home</NavLink>
+                        <NavLink to="/" className='navbar-text' activeClassName='current'>Home</NavLink>
                         <NavLink to="/About" className='navbar-text' activeClassName='current'>About</NavLink>
                         <NavLink to="/Resume" className='navbar-text' activeClassName='current'>Resume</NavLink>
                     </Nav>
