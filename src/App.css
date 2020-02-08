@@ -15,7 +15,6 @@
     padding:15px;
 }
 
-
 /* Navbar toggler */
 
 
@@ -32,8 +31,16 @@
 .current {
   color: rgb(57, 57, 59);
   border-bottom:none;
-  background: rgba(155, 155, 155, 0.5);
+  background: -webkit-linear-gradient(to left, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ffd194, #9de7f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
  }
+
+ .navbar-collapse{
+    margin-top:10px;
+    text-align: left;
+ }
+
 
 
 /* Landing Page */ 
@@ -170,9 +177,6 @@
     margin-bottom: 20px;
 }
 
-.project-description{
-   
-}
 
 
 /* ABOUT ME */
@@ -196,9 +200,10 @@
 }
 
 .aboutMe-text{
+    text-indent: 35px;
     font-family: 'Averia Serif Libre', cursive;
-    font-size: 17px;
-    padding:20px 0;
+    font-size: 14px;
+    padding:10px 0;
     text-align: justify;
     word-spacing: 2px;
 }
@@ -223,13 +228,35 @@
     padding-top:10px;
 
 }
+.carousel-caption{
+    padding:0px;
+}
+.carousel-caption h3{
+    font-size: 18px;
+    margin:0;
+}
+
+
+.carousel-caption p{
+    font-size: 14px;
+    margin:0;
+}
+
+.carousel-indicators{
+    margin:0;
+}
+
+.carousel-indicators li{
+   width:15px;
+   height: 1.5px;
+}
 
 .slide-pics{
     width:150px;
 }
 
 .aboutMe-2{
-    margin:20px 0;
+    margin:0px 0 20px 0;
 }
 
 .excess-luggage-a{
@@ -434,7 +461,6 @@ a:hover{
 
 @media only screen and (min-width:768px){
 
-
 /* Landing Page */ 
 
 .my-pic{
@@ -512,6 +538,40 @@ a:hover{
   
  
 }
+
+.aboutMe-details{
+    margin:auto 15%;
+}
+
+
+.aboutMe-text{
+    font-size: 17px;
+    padding:20px 0;
+}
+
+.carousel-aboutme{
+    width:60%;
+    margin:0 auto 20px auto;
+}
+
+.carousel-caption h3{
+    font-size: 22px;
+}
+
+
+.carousel-caption p{
+    font-size: 16px;
+}
+
+.carousel-indicators li{
+   width:30px;
+   height: 3px;
+}
+
+.aboutMe-2{
+    margin:20px 0;
+}
+
 
 
 .navbar-light .navbar-text.current {

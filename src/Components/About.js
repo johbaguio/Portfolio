@@ -58,7 +58,7 @@ class About extends Component {
 
                 <div className='aboutMe-details'>
                     <p className='aboutMe-1 aboutMe-text'>
-                        I’m a 28 year old web developer with a <i> Bachelor’s degree in Informations and Communications Technology </i>. I recently earned my post - graduate units in programming at <i> Hack Your Future  </i>where I was able to hone my skills in programming using the languages REACT, JAVA SCRIPT, Etc. Throughout the entire program, I was able to create the following projects:  </p>
+                        I’m a 28 year old web developer with a <i> Bachelor’s degree in Informations and Communications Technology </i>. I recently earned my post - graduate units in programming at <i> Hack Your Future  </i>where I was able to hone my skills in programming using HTML5, CSS, Sass, React, JavaScript, Node.js and MySQL. Throughout the entire program, I was able to create the following projects:  </p>
                     <div className='projects-container-abtme'>
 
                         <div className='card-container-aboutMe'>
