@@ -206,7 +206,7 @@
     text-indent: 35px;
     font-family: 'Averia Serif Libre', cursive;
     font-size: 14px;
-    padding:10px 0;
+    padding:10px 0 0 0;
     text-align: justify;
     word-spacing: 2px;
 }
@@ -259,6 +259,7 @@
 }
 
 .aboutMe-2{
+    padding:0;
     margin:0px 0 20px 0;
 }
 
@@ -279,6 +280,12 @@
     margin: 0 auto;
     margin-bottom:20px;
    
+}
+
+.about-projects{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
 }
 
 
@@ -559,7 +566,7 @@ a:hover{
 
 .aboutMe-text{
     font-size: 17px;
-    padding:20px 0;
+    padding:10px 0 0 0;
 }
 
 .carousel-aboutme{
@@ -582,7 +589,8 @@ a:hover{
 }
 
 .aboutMe-2{
-    margin:20px 0;
+    padding:0;
+    margin:10px 0 25px 0;
 }
 
 

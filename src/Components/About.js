@@ -12,6 +12,7 @@ import Jo3 from '../Static/Images/jo-about5.jpg';
 import Jo4 from '../Static/Images/jo-about6.jpg';
 import Jo5 from '../Static/Images/jo-about3.jpg';
 import Carousel from 'react-bootstrap/Carousel';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -95,44 +96,9 @@ class About extends Component {
 
                 <div className='aboutMe-details'>
                     <p className='aboutMe-1 aboutMe-text'>
-                        I’m a 28 year old web developer with a <i> Bachelor’s degree in Informations and Communications Technology </i>. I recently earned my post - graduate units in programming at <i> Hack Your Future  </i>where I was able to hone my skills in programming using HTML5, CSS, Sass, React, JavaScript, Node.js and MySQL. Throughout the entire program, I was able to create the following projects:  </p>
-                    <div className='projects-container-abtme'>
-
-                        <div className='card-container-aboutMe'>
-                            <Card style={{ width: '18rem' }} className='card-projects'>
-                                <Card.Img variant="top" src={QuotesApp} className='card-image' />
-                                <Card.Body>
-                                    <Card.Title className='project-title'>Quotes Generator</Card.Title>
-                                    <Card.Text>
-                                        An app that will definitely give you the encouragement you need in whatever it is that you may be going through in your job, personal relationships or basically in life. I hope this lightens up your day. :D
-                                    </Card.Text>
-                                    <a href='https://daily-dose-of-positivity.netlify.com/ ' target='_blank' rel="noopener noreferrer"><Button variant="primary">Go to app</Button></a>
-                                </Card.Body>
-                            </Card>
-
-                            <Card style={{ width: '18rem' }} className='card-projects'>
-                                <Card.Img variant="top" src={HyfQuiz} className='card-image' />
-                                <Card.Body>
-                                    <Card.Title className='project-title'>HYF Quiz</Card.Title>
-                                    <Card.Text>
-                                        A short quiz  app about JavaScript with some timers and background music to keep you entertained and pressured at the same time. This is one of the homeworks we had in JS with HYF. C'mon give it a try. :D
-                                    </Card.Text>
-                                    <a href='https://johbaguio.github.io/hyf-quiz/? ' target='_blank' rel="noopener noreferrer"><Button variant="primary">Go to app</Button></a>
-                                </Card.Body>
-                            </Card>
-
-                            <Card style={{ width: '18rem' }} className='card-projects'>
-                                <Card.Img variant="top" src={MemoryGame} className='card-image' />
-                                <Card.Body>
-                                    <Card.Title className='project-title'>HYF-Christmas memory game</Card.Title>
-                                    <Card.Text>
-                                        2018, HackYourFuture gave us a christmas coding challenge. That is to incorporate christmas and our school. So, I did a memory game with our mentors pictures in the cards. Try it out! :D
-                                    </Card.Text>
-                                    <a href='https://johbaguio.github.io/hyf-christmas/ ' target='_blank' rel="noopener noreferrer"><Button variant="primary">Go to app</Button></a>
-                                </Card.Body>
-                            </Card>
-                        </div>
-                    </div>
+                        I’m a 28 year old web developer with a <i> Bachelor’s degree in Informations and Communications Technology </i>. I recently earned my post - graduate units in programming at <i> Hack Your Future  </i>where I was able to hone my skills in programming using HTML5, CSS, Sass, React, JavaScript, Node.js and MySQL. Throughout the entire program, I was able to create some applications/projects that helped me better the skills I have acquired in the entire program. You can  jump off and see the projects I've made
+                        <NavLink to="/Projects" className='about-projects' activeClassName='current'> here</NavLink>. :)
+                    </p>
 
                     <p className='aboutMe-2 aboutMe-text'>
                         Aside from navigating the cyber world, I also love exploring different places in the world. I love immersing myself in the diversities found in the country’s structures, history, and culture. In every place I’ve set my foot into, I made sure to take a piece of that place with me. These fragments of memories are collectively known as <b><i> my excess luggage </i></b>. Hop on and take a peek inside! ✈   </p>
